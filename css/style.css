@@ -8508,13 +8508,25 @@ textarea.form-control {
   color: rgba(255, 255, 255, 0.9); }
 
 .hotel-img,
-.hero-wrap,
 .img,
 .blog-img,
 .user-img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
+
+  .hero-wrap {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff; /* Text color on top of the image */
+  }
 
 @media (max-width: 767.98px) {
   .img-about {
