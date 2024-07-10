@@ -443,17 +443,17 @@ kbd {
     font-weight: 700; }
 
   
-.custom-btn {
-  background-color: #007bff; /* Original button color */
-  border-color: #007bff; /* Original border color */
-  color: white; /* Button text color */
-}
+    .btn-custom {
+      background-color:  #762f1d; /* Button color */
+      border-color: #762f1d; /* Button border color */
+      color: white; /* Button text color */
+    }
   
-  .custom-btn:hover {
-  background-color: #0056b3; /* Darker shade for hover */
-  border-color: #0056b3; /* Matching border color for hover */
-  color: white; /* Ensure text remains visible on hover */
-}
+    .btn-custom:hover {
+      background-color: #0056b3; /* Hover background color */
+      border-color: #0056b3; /* Hover border color */
+      color: #ffffff; /* Hover text color */
+    }
 
 
 pre {
