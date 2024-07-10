@@ -9229,7 +9229,137 @@ textarea.form-control {
     border-radius: 50%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+/* new changes */
+/* General Styling */
+.ftco-section-3 {
+  position: relative;
+  padding: 4em 0;
+  
+}
 
+.donor-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.7;
+  background: #f7fad7;
+}
+
+/* Testimonial Carousel */
+.donor-carousel {
+  position: relative;
+}
+
+.donor-carousel-inner {
+  position: relative;
+  width: 100%;
+}
+
+.donor-carousel-item {
+  display: none;
+}
+
+.donor-carousel-item.active {
+  display: block;
+}
+
+.donor-testimonial-item {
+  text-align: left;
+  padding: 2em;
+  background-color: #f7fad7;
+  border-radius: 10px;
+}
+
+.donor-testimonial-img {
+  width: 70%;
+  height: 85%;
+  object-fit: cover;
+  border-radius: 8%;
+  margin-bottom: 1em;
+}
+
+.donor-testimonial-name {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.donor-testimonial-position {
+  font-style: italic;
+  color: #555;
+}
+
+.donor-testimonial-text {
+  margin-top: 1em;
+  line-height: 1.6;
+}
+
+/* Carousel Controls */
+.donor-carousel-control-prev,
+.donor-carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.donor-carousel-control-prev {
+  left: 0;
+}
+
+.donor-carousel-control-next {
+  right: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23333" viewBox="0 0 8 8"%3E%3Cpath d="M5.707 0.293c-0.183-0.183-0.5-0.183-0.707 0l-5 5c-0.183 0.183-0.183 0.5 0 0.707l5 5c0.183 0.183 0.5 0.183 0.707 0s0.183-0.5 0-0.707l-4.293-4.293 4.293-4.293c0.183-0.183 0.183-0.5 0-0.707z"%3E%3C/path%3E%3C/svg%3E');
+}
+
+.carousel-control-next-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23333" viewBox="0 0 8 8"%3E%3Cpath d="M2.293 0.293c-0.183-0.183-0.5-0.183-0.707 0s-0.183 0.5 0 0.707l4.293 4.293-4.293 4.293c-0.183 0.183-0.183 0.5 0 0.707s0.5 0.183 0.707 0l5-5c0.183-0.183 0.183-0.5 0-0.707l-5-5z"%3E%3C/path%3E%3C/svg%3E');
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: auto;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.carousel-indicators li {
+  background-color: #333;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.carousel-indicators .active {
+  background-color: #fff;
+}
+
+/* new changes end */
 .prev {
     left: 20px;
 }

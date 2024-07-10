@@ -38,7 +38,7 @@
     <!-- new stick button changes -->
     <!-- <button style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #f44336; color: white; border: none; border-radius: 5px; cursor: pointer; z-index: 1000;" onmouseover="this.style.backgroundColor='#d32f2f'" onmouseout="this.style.backgroundColor='#f44336'">Donate Now</button> -->
     <button id="donate-button"
-      style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #762f1d; color: white; border: none; border-radius: 5px; cursor: pointer; z-index: 1000;"
+      style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #f44336; color: white; border: none; border-radius: 5px; cursor: pointer; z-index: 1000;"
       onmouseover="this.style.backgroundColor='#d32f2f'" onmouseout="this.style.backgroundColor='#f44336'"
       onclick="window.location.href = 'donate.html';">Donate Now</button>
 
@@ -397,14 +397,75 @@
   </section>
 
   <!-- testimonial section starts -->
-
+<!-- 
 <section class="ftco-section-3 img" style="background-image: url(images/bg_3.jpg);">
   <div class="overlay" style="background:#f7fad7"></div>
   <div class="container">
     <div class="row justify-content-center mb-5 pb-3">
-      <div class="col-md-5 heading-section ftco-animate text-center">
-        <h2 class="mb-4">TESTIMONIALS</h2>
+      <div class="col-md-12 heading-section ftco-animate text-center">
+        <h2 class="mb-4 md-4">TESTIMONIALS</h2>
         <p>United in purpose, driven by compassion, we pave the path for a brighter tomorrow, one step at a time.</p>
+        
+      </div>
+      <div id="donorFeedbackCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#donorFeedbackCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#donorFeedbackCarousel" data-slide-to="1"></li>
+          <li data-target="#donorFeedbackCarousel" data-slide-to="2"></li>
+          <li data-target="#donorFeedbackCarousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-2">
+                  <img src="/Kohka_foundation/images/donors/Vikas Joshi.webp">
+                </div>
+                <div class="col-md-10">
+                  <h5>Vikas Joshi</h5>
+                  <p>Global HR Business Partnering and HR Operations, PepsiCo, New York</p>
+                  <p>"It is magical to see the impact of giving back! Sanjay Nagar, you have demonstrated that one person can make a difference to 100s. As it did for us, a small detour from Nagpur will probably offer ways for you to contribute to an India that will be left behind if we don't step up to make a difference."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-2">
+                  <img src="vikas-joshi.jpg" alt="Vikas Joshi" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-10">
+                  <h5>Vikas Joshi</h5>
+                  <p>Global HR Business Partnering and HR Operations, PepsiCo, New York</p>
+                  <p>"It is magical to see the impact of giving back! Sanjay Nagar, you have demonstrated that one person can make a difference to 100s. As it did for us, a small detour from Nagpur will probably offer ways for you to contribute to an India that will be left behind if we don't step up to make a difference."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-2">
+                  <img src="vikas-joshi.jpg" alt="Vikas Joshi" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-10">
+                  <h5>Vikas Joshi</h5>
+                  <p>Global HR Business Partnering and HR Operations, PepsiCo, New York</p>
+                  <p>"It is magical to see the impact of giving back! Sanjay Nagar, you have demonstrated that one person can make a difference to 100s. As it did for us, a small detour from Nagpur will probably offer ways for you to contribute to an India that will be left behind if we don't step up to make a difference."</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#donorFeedbackCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#donorFeedbackCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
     <div class="row d-md-flex">
@@ -413,8 +474,111 @@
     
     </div>
   </div>   
+</section> -->
+
+<section class="ftco-section-3 img" style="background-color: #762f1d; max-height: 80%;">
+  <div class="donor-overlay"></div>
+  <div class="col-md-12 heading-section ftco-animate text-center">
+    <h2 class="mb-4 md-4">TESTIMONIALS</h2>
+    <p class="mb-4 md-4">United in purpose, driven by compassion, we pave the path for a brighter tomorrow, one step at a time.</p>
+    
+  </div>
+  <div class="container">
+   
+    <!-- Carousel HTML -->
+    <div id="donorFeedbackCarousel" class="donor-carousel carousel slide" data-ride="carousel">
+      <!-- Carousel items -->
+      <div class="donor-carousel-inner carousel-inner">
+        <!-- 1 -->
+        <div class="carousel-item donor-carousel-item active">
+          <div class="donor-testimonial-item">
+            <div class="row">
+              <div class="col-md-3 text-center">
+                <img src="/Kohka_foundation/images/donors/Vikas Joshi.webp" class="donor-testimonial-img">
+              </div>
+              <div class="col-md-9">
+                <h5 class="donor-testimonial-name">Vikas Joshi</h5>
+                <p class="donor-testimonial-position">Global HR Business Partnering and HR Operations, PepsiCo, New York</p>
+                <p class="donor-testimonial-text">"It is magical to see the impact of giving back! Sanjay Nagar, you have demonstrated that one person can make a difference to 100s. As it did for us, a small detour from Nagpur will probably offer ways for you to contribute to an India that will be left behind if we don't step up to make a difference."</p>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="carousel-item donor-carousel-item">
+          <div class="donor-testimonial-item">
+            <div class="row">
+              <div class="col-md-3 text-center">
+                <img src="/Kohka_foundation/images/donors/shilpa_sharma.webp" class="donor-testimonial-img">
+              </div>
+              <div class="col-md-9">
+                <h5 class="donor-testimonial-name">Shilpa Sharma</h5>
+                <p class="donor-testimonial-position">Former Senior Assistant Editor, Femina Hindi</p>
+                <p class="donor-testimonial-text">"वहां Sanjay Nagar जी (जो मुंबई के गोरेगांव के रहने वाले हैं) के कोहका वाइल्डरनेस कैम्प में ठहरे थे. बातों ही बातों में संजय जी ने बताया कि उनका लाइट ऑफ़ लाइफ़ ट्रस्ट कोहका फ़ाउंडेशन स्कूली बच्चों को गणित, इंग्लिश और कम्पयूटर की शिक्षा देता है. उन्होंने हमसे कहा कि यदि हम इन बच्चों से बात करके उन्हें करियर के विकल्पों के बारे में बता सकें. यह सुनते ही हमारी आंखें ख़ुशी से चमकने लगीं. इन बच्चों से बात करना, हमें बहुत समृद्ध कर गया, अभिभूत कर गया. ये पूरी ट्रिप जैसे उद्देश्यपूर्ण हो गई हो. उम्मीद करती हूं कि बच्चे भी इस बातचीत से कुछ लाभ ले पाए हों. इस अवसर के लिए आभार प्रकृति का, आभार संजय जी का..."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="carousel-item donor-carousel-item">
+          <div class="donor-testimonial-item">
+            <div class="row">
+              <div class="col-md-3 text-center">
+                <img src="/Kohka_foundation/images/donors/Aashi Sanghvi.webp" class="donor-testimonial-img">
+              </div>
+              <div class="col-md-9">
+                <h5 class="donor-testimonial-name">Aashi Sanghvi, </h5>
+                <p class="donor-testimonial-position">Associate Vice-President, Premium Division, Hindustan Coco-Cola Beverages Pvt. Ltd.</p>
+                <p class="donor-testimonial-text">"The teachers of Kohka foundation are the most passionate teachers I have met. They not only focused on the text book education but also took personal interest in the progress of these underpriviledged kids. I had personally accompanied these teachers for home visit to meet the parents of these children to ensure they are supporting them and that if there any issues they could address it."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="carousel-item donor-carousel-item">
+          <div class="donor-testimonial-item">
+            <div class="row">
+              <div class="col-md-3 text-center">
+                <img src="/Kohka_foundation/images/donors/Dr shilpa.webp" class="donor-testimonial-img">
+              </div>
+              <div class="col-md-9">
+                <h5 class="donor-testimonial-name">Dr. Shilpa Bhiwapurkar, </h5>
+                <p class="donor-testimonial-position">Gynaecologist, Nagpur.</p>
+                <p class="donor-testimonial-text">"Sanjay Nagar has demonstrated that 1 person can make a difference and that journey of a thousand smiles kicks – off with focussed sustainable initiatives.
+
+                  From 2016, we have conducted health and awareness camps in most of the government schools and colleges
+                  of Seoni District and so far impacted 2500 beneficiaries."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <!-- Carousel controls -->
+      <a class="donor-carousel-control-prev carousel-control-prev" href="#donorFeedbackCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="donor-carousel-control-next carousel-control-next" href="#donorFeedbackCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!-- Carousel indicators -->
+      <ol class="donor-carousel-indicators carousel-indicators">
+        <li data-target="#donorFeedbackCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#donorFeedbackCarousel" data-slide-to="1"></li>
+        <li data-target="#donorFeedbackCarousel" data-slide-to="2"></li>
+        <li data-target="#donorFeedbackCarousel" data-slide-to="3"></li>
+        <!-- Additional indicators -->
+      </ol>
+    </div>
+  </div>
 </section>
+
+
 <!-- testimonial section ends -->
+
 
 <!-- Be a volunteer starts -->
 <section class="ftco-section-3 img" style="background-image: url(images/bg_3.jpg);">
