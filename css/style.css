@@ -442,6 +442,20 @@ kbd {
     font-size: 100%;
     font-weight: 700; }
 
+  
+.custom-btn {
+  background-color: #007bff; /* Original button color */
+  border-color: #007bff; /* Original border color */
+  color: white; /* Button text color */
+}
+  
+  .custom-btn:hover {
+  background-color: #0056b3; /* Darker shade for hover */
+  border-color: #0056b3; /* Matching border color for hover */
+  color: white; /* Ensure text remains visible on hover */
+}
+
+
 pre {
   display: block;
   font-size: 87.5%;
