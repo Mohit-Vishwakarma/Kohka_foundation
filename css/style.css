@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
  /* #762f1d old primary */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -442,46 +442,7 @@ kbd {
     font-size: 100%;
     font-weight: 700; }
 
-  
-    .btn-custom {
-      background-color:  #762f1d; /* Button color */
-      border-color: #762f1d; /* Button border color */
-      color: white; /* Button text color */
-    }
-  
-    .btn-custom:hover {
-      background-color: #0056b3; /* Hover background color */
-      border-color: #0056b3; /* Hover border color */
-      color: #ffffff; /* Hover text color */
-    }
-
-    .item {
-      width: 300px; /* Fixed width */
-      height: 400px; /* Fixed height */
-    }
-  
-    .cause-entry {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      height: 100%;
-    }
-  
-    .cause-entry .img {
-      height: 200px; /* Adjust height as needed */
-      background-size: cover;
-      background-position: center;
-    }
-  
-    .cause-entry .text {
-      padding: 15px;
-      flex-grow: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-    }
-
-
+ 
 pre {
   display: block;
   font-size: 87.5%;
@@ -7529,8 +7490,15 @@ h1, h2, h3, h4, h5,
       padding-block: 10%;
       width: 100%;
       height: calc(100vh - 117px);
-      min-height: 400px;
+      min-height: 750px;
       position: relative; }
+    
+      .Secv_edu2{
+        padding-block: 10%;
+        width: 100%;
+        height: calc(100vh - 117px);
+        min-height: 450px;
+        position: relative; }
 
   .hero-wrap.hero-wrap-2 {
     height: 600px; }
@@ -8527,8 +8495,7 @@ textarea.form-control {
     text-align: center;
     color: #fff; /* Text color on top of the image */
   }
-
-@media (max-width: 767.98px) {
+  @media (max-width: 767.98px) {
   .img-about {
     height: 400px;
     margin-bottom: 30px; } }
