@@ -8495,7 +8495,7 @@ textarea.form-control {
     text-align: center;
     color: #fff; /* Text color on top of the image */
   }
-  @media (max-width: 767.98px) {
+  @media (max-width: 900.98px) {
   .img-about {
     height: 400px;
     margin-bottom: 30px; } }
