@@ -9357,6 +9357,41 @@ textarea.form-control {
 .prev:hover, .next:hover {
     background-color: rgba(255, 255, 255, 1);
 }
+
+.split-carousel .carousel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px; /* Adjust height as needed */
+}
+
+.split-carousel .carousel-item .carousel-text {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+
+.split-carousel .carousel-item img {
+  max-width: 100%; /* Ensure images are responsive */
+  border-radius: 10px;
+}
+
+/* Basic style for carousel indicators */
+.carousel-indicators {
+  position: static; /* Ensure indicators are visible */
+  margin-top: 10px; /* Adjust spacing from carousel */
+}
+.carousel-indicators li {
+  width: 10px; /* Adjust width */
+  height: 10px; /* Adjust height */
+  border-radius: 50%; /* Make round */
+  margin: 0 5px; /* Adjust spacing */
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust color */
+}
+.carousel-indicators .active {
+  background-color: rgba(0, 0, 0, 0.8); /* Adjust active color */
+}
 /*  */
 @-webkit-keyframes loader-rotate {
   100% {
