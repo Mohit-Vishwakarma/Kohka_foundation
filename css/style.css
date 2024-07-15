@@ -9247,7 +9247,41 @@ textarea.form-control {
 .donor-carousel-control-next {
   right: 0;
 }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23333" viewBox="0 0 8 8"%3E%3Cpath d="M5.707 0.293c-0.183-0.183-0.5-0.183-0.707 0l-5 5c-0.183 0.183-0.183 0.5 0 0.707l5 5c0.183 0.183 0.5 0.183 0.707 0s0.183-0.5 0-0.707l-4.293-4.293 4.293-4.293c0.183-0.183 0.183-0.5 0-0.707z"%3E%3C/path%3E%3C/svg%3E');
+}
+
+.carousel-control-next-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%23333" viewBox="0 0 8 8"%3E%3Cpath d="M2.293 0.293c-0.183-0.183-0.5-0.183-0.707 0s-0.183 0.5 0 0.707l4.293 4.293-4.293 4.293c-0.183 0.183-0.183 0.5 0 0.707s0.5 0.183 0.707 0l5-5c0.183-0.183 0.183-0.5 0-0.707l-5-5z"%3E%3C/path%3E%3C/svg%3E');
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: auto;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+/* new changes end */
   /*  */
+
 
   .carousel-container {
     width: 80%;
