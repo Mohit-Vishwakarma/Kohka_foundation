@@ -5,7 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
  /* #762f1d old primary */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -442,6 +442,7 @@ kbd {
     font-size: 100%;
     font-weight: 700; }
 
+ 
 pre {
   display: block;
   font-size: 87.5%;
@@ -7489,8 +7490,15 @@ h1, h2, h3, h4, h5,
       padding-block: 10%;
       width: 100%;
       height: calc(100vh - 117px);
-      min-height: 400px;
+      min-height: 750px;
       position: relative; }
+    
+      .Secv_edu2{
+        padding-block: 10%;
+        width: 100%;
+        height: calc(100vh - 117px);
+        min-height: 450px;
+        position: relative; }
 
   .hero-wrap.hero-wrap-2 {
     height: 600px; }
@@ -8468,7 +8476,6 @@ textarea.form-control {
   color: rgba(255, 255, 255, 0.9); }
 
 .hotel-img,
-.hero-wrap,
 .img,
 .blog-img,
 .user-img {
@@ -8476,7 +8483,19 @@ textarea.form-control {
   background-repeat: no-repeat;
   background-position: center center; }
 
-@media (max-width: 767.98px) {
+  .hero-wrap {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff; /* Text color on top of the image */
+  }
+  @media (max-width: 900.98px) {
   .img-about {
     height: 400px;
     margin-bottom: 30px; } }
@@ -9337,6 +9356,41 @@ textarea.form-control {
 
 .prev:hover, .next:hover {
     background-color: rgba(255, 255, 255, 1);
+}
+
+.split-carousel .carousel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px; /* Adjust height as needed */
+}
+
+.split-carousel .carousel-item .carousel-text {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+
+.split-carousel .carousel-item img {
+  max-width: 100%; /* Ensure images are responsive */
+  border-radius: 10px;
+}
+
+/* Basic style for carousel indicators */
+.carousel-indicators {
+  position: static; /* Ensure indicators are visible */
+  margin-top: 10px; /* Adjust spacing from carousel */
+}
+.carousel-indicators li {
+  width: 10px; /* Adjust width */
+  height: 10px; /* Adjust height */
+  border-radius: 50%; /* Make round */
+  margin: 0 5px; /* Adjust spacing */
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust color */
+}
+.carousel-indicators .active {
+  background-color: rgba(0, 0, 0, 0.8); /* Adjust active color */
 }
 /*  */
 @-webkit-keyframes loader-rotate {
