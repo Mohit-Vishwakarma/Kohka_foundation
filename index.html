@@ -27,6 +27,8 @@
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/icomoon.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/carousel.css">
+  
 
 
 </head>
@@ -38,8 +40,8 @@
     <!-- new stick button changes -->
     <!-- <button style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #f44336; color: white; border: none; border-radius: 5px; cursor: pointer; z-index: 1000;" onmouseover="this.style.backgroundColor='#d32f2f'" onmouseout="this.style.backgroundColor='#f44336'">Donate Now</button> -->
     <button id="donate-button"
-       style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #f44336; color: white; border: none; border-radius: 5px; cursor: pointer; z-index: 1000;"
-      onmouseover="this.style.backgroundColor='#d32f2f'" onmouseout="this.style.backgroundColor='#f44336'"
+       style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #762f1d; color: white; border: none; border-radius: 5px; cursor: pointer; z-index: 1000;"
+      onmouseover="this.style.backgroundColor='#59190a'" onmouseout="this.style.backgroundColor='#762f1d'"
       onclick="window.location.href = 'donate.html';">Donate Now</button>
 
     <script>
@@ -95,7 +97,7 @@
 
   <!-- head -->
   <div class="hero-wrap"
-    style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),url('images/bg_7.jpg') ;"
+    style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),url('images/cause-6.jpg') ;"
     data-stellar-background-ratio="0.5">
     <div class="overlay" style="background-color: rgba(0, 0, 0, 0.1);"></div>
     <div class="container">
@@ -103,12 +105,12 @@
         <div class="col-md-7 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
           <!-- <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Doing Nothing is Not An Option of Our Life</h1> -->
           <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Let's make the world a better
-            place to live. Start now.</h1>
+            place to live.<br> Start now.</h1>
           <!-- <p class="mb-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Empowering communities, transforming lives <a href="#">Worth</a></p> -->
           <p class="mb-5" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Empowering Communities,
             Transforming Lives.</p>
           <!-- <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="https://www.youtube.com/watch?v=czVz47n8X_0" class="btn btn-white btn-outline-white px-4 py-3 popup-youtube"><span class="icon-play mr-2"></span>Our Intiatives</a></p> -->
-          <p><a href="Our_Projects.html" class="btn btn-white btn-outline-white px-4 py-3">Our
+          <p><a href="Our_Projects.html" class="btnfc btnfc-primary px-4 py-3">Our
               Causes</a></p>
         </div>
       </div>
@@ -123,12 +125,10 @@
         <div class="col-md-5 d-flex justify-content-center counter-wrap ftco-animate">
           <div class="block-18 color-1 align-items-stretch">
             <div class="text">
-              <span>Served Over</span>
-              <!-- <strong class="number" data-number="44185">0</strong>
-                <span>Madhya Pradesh including rural tribals, children and self-help groups.</span> -->
+              <h3 class="mb-4">Served Over</h3>
               <strong class="number" data-number="107590">0</strong>
-              <span> Lives across Madhya Pradesh and Maharashtra since our
-                inception in 2014.</span>
+              <h5> Lives across Madhya Pradesh and Maharashtra since our
+                inception in 2014.</h5>
             </div>
           </div>
         </div>
@@ -136,11 +136,8 @@
         <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
           <div class="block-18 color-2 align-items-stretch">
             <div class="text">
-              <!-- <h3 class="mb-4">Donate Money</h3>
-              	<p>Generosity is not about how much we give, but how much love we put into giving.</p>
-              	<p><a href="#" class="btn btn-white px-3 py-2 mt-2">Donate Now</a></p> -->
               <h3 class="mb-4">Support our Cause</h3>
-              <p>Help us empower underserved communities. Invest in the future, donate today.</p>
+              <h5>Help us empower underserved communities. Invest in the future, donate today.</h5>
             </div>
           </div>
         </div>
@@ -148,7 +145,7 @@
           <div class="block-18 color-3 align-items-stretch">
             <div class="text">
               <h3 class="mb-4">Be a Volunteer</h3>
-              <p>Joining hands, we create ripples of change that touch hearts and transform lives.</p>
+              <h5>Joining hands, we create ripples of change that touch hearts and transform lives.</h5>
               <p><a href="donate.html" class="btn btn-white px-3 py-2 mt-2">Get Involved</a></p>
             </div>
           </div>
@@ -198,14 +195,15 @@
     <div class="container-fluid">
       <div class="row justify-content-center mb-5 pb-3">
         <div class="col-md-5 heading-section ftco-animate text-center">
-          <h2 class="mb-4">LATEST ACTIVITIES</h2>
-          <p>United in purpose, driven by compassion, we pave the path for a brighter tomorrow, one step at a time.</p>
+          <h1 class="mb-4 font-text">LATEST ACTIVITIES</h1>
+          <h4>United in purpose, driven by compassion, we pave the path for a brighter tomorrow, one step at a time.</h4>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12 ftco-animate">
           <div class="carousel-cause owl-carousel">
             <!-- 1 -->
+             <!--
             <div class="item">
               <div class="cause-entry">
                 <a href="#" class="img" style="background-image: url(images/Home/our_story.jpg);"></a>
@@ -216,12 +214,13 @@
                 </div>
               </div>
             </div>
+            -->
             <!-- 2 -->
             <div class="item">
               <div class="cause-entry">
                 <a href="#" class="img" style="background-image: url(images/Gallery/computerLiteracy.jpg);"></a>
                 <div class="text p-3 p-md-4">
-                  <h3><a href="#">Computer Litreracy</a></h3>
+                  <h3><a href="./ComputerLiteracy.html">Computer Litreracy</a></h3>
                   <p>Computer Classes for MNB Industrial Home for the Blind and for sex worker communities in Mumbai</p>
                 </div>
               </div>
@@ -232,12 +231,12 @@
                 <a href="#" class="img" style="background-image: url(images/Gallery/comp-img.jpg);"></a>
                 <div class="text p-3 p-md-4">
                   <h3><a href="./secondary_education.html">Secondary Education</a></h3>
-                  <p>Online classes for supplementary maths education for 8th, 9th and 10th grade student</p>
+                  <p>Online classes for supplementary maths education for 8th, 9th and 10th grade <br>student  </p>
                 </div>
               </div>
             </div>
-            <!-- 4 -->
 
+            <!-- 4 -->
             <div class="item">
               <div class="cause-entry">
                 <a href="#" class="img" style="background-image: url(images/Gallery/skill\ dev.jpg);"></a>
@@ -248,28 +247,26 @@
                 </div>
               </div>
             </div>
-            <!-- 5 -->
-
-            <div class="item">
-              <div class="cause-entry">
-                <a href="#" class="img" style="background-image: url(images/cause-1.jpg);"></a>
-                <div class="text p-3 p-md-4">
-                  <h3><a href="#">Served Over</a></h3>
-                  <p>44,185
-                    "Maharashtra including sex workers, visually impaired individuals, transgenders and more"</p>
-                </div>
-              </div>
-            </div>
-
+            
             <!-- 6 -->
             <div class="item">
               <div class="cause-entry">
                 <a href="#" class="img" style="background-image: url(images/CoronaVirusRelief/CoronaReliefSlide3.webp);"></a>
                 <div class="text p-3 p-md-4">
-                  <h3><a href="#">Helping Hand</a></h3>
+                  <h3><a href="#">Corona Virus Relief</a></h3>
                   <p>1,02,430
-                    " Corona Virus Relief Work including police departments, hospitals and migrant workers.
-                    "</p>
+                    Corona Virus Relief Work including police departments, hospitals and migrant workers.</p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- 5 -->
+            <div class="item">
+              <div class="cause-entry">
+                <a href="#" class="img" style="background-image: url(images/cause-1.jpg);"></a>
+                <div class="text p-3 p-md-4">
+                  <h3><a href="#">Lives Changed</a></h3>
+                  <p>Working with a community of sex workers in Maharashtra to provide skill development, digital literacy and employability</p>
                 </div>
               </div>
             </div>
@@ -315,7 +312,7 @@
     <div class="container-fluid">
       <div class="row justify-content-center mb-5 pb-3">
         <div class="col-md-5 heading-section ftco-animate text-center">
-          <h2 class="mb-4">Our Story</h2>
+          <h1 class="mb-4 font-text">Our Story</h1>
         </div>
       </div>
 
@@ -370,7 +367,7 @@
           <!-- <p>Our efforts include outreach programs, community intervention, regular counselling and all the projects we are responsible for in Seoni, Madhya Pradesh and Mumbai, Maharashtra.</p> -->
           <p>During the Covid-19 pandemic, our main beneficiaries in Mumbai have been city-wide police departments, hospitals, transgender and sex worker communities, and visually impaired individuals.</p>
           <div class="text-md-right">
-              <a href="Our_Projects.html" class="btn btn-primary">Read More</a>
+              <a href="Our_Projects.html" class="btn btn-info">Read More</a>
           </div>
       </div>
           <div class="col-md-6 d-flex ftco-animate">
