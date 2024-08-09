@@ -55,6 +55,14 @@
   font-size: xx-large;
   font-style: normal;
 }
+.gupter-mediumShadow{
+  font-family: "Gupter", serif;
+  font-weight: 520;
+  font-size: xx-large;
+  font-style: normal;
+  text-shadow: .04em .04em 0 #fff,.08em .08em 0 #aaa;
+  -webkit-text-shadow: .04em .04em 0 #fff, .08em .08em 0 #aaa;
+}
 .gupter-regular {
   font-family: "Gupter", sans-serif;
   font-weight: 100;
@@ -62,10 +70,20 @@
 }
 .gupter-large{
   font-family: "Gupter", Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 1020;
-  font-size: 85%;
+  font-weight: 1060;
+  font-size: 100%;
   font-stretch:ultra-expanded;
   font-style: normal;
+}
+
+.cardSE {
+  border: 1px solid #e0e0e0; /* Optional: add a border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.card-bodySE {
+  padding: 20px; /* Padding for card content */
 }
 
 .btnfc {
