@@ -49,6 +49,24 @@
   text-shadow: .04em .04em 0 #fff,.08em .08em 0 #aaa;
   -webkit-text-shadow: .04em .04em 0 #fff, .08em .08em 0 #aaa;
 }
+.gupter-medium{
+  font-family: "Gupter", serif;
+  font-weight: 520;
+  font-size: xx-large;
+  font-style: normal;
+}
+.gupter-regular {
+  font-family: "Gupter", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.gupter-large{
+  font-family: "Gupter", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 1020;
+  font-size: 85%;
+  font-stretch:ultra-expanded;
+  font-style: normal;
+}
 
 .btnfc {
   cursor: pointer;
