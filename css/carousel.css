@@ -53,8 +53,8 @@
 }
 
 .font-text.heading1 {
-  font-family: "Gupter", sans-serif;
-  font-size: 30px;
+  font-family: "Gupter", serif;
+  font-size: 22px;
   text-shadow: .04em .04em 0 #fff, .08em .08em 0 #aaa;
   -webkit-text-shadow: .04em .04em 0 #fff, .08em .08em 0 #aaa;
 }
@@ -64,6 +64,14 @@
   font-weight: 520;
   font-size: xx-large;
   font-style: normal;
+}
+.font-text.title {
+  font-family: "Gupter", serif;
+  text-transform: uppercase;
+  text-decoration-color: #070707;
+  font-size: 50px;
+  text-shadow: .04em .04em 0 #454141, .08em .08em 0 #454141;
+  -webkit-text-shadow: .04em .04em 0 #454141, .08em .08em 0 #454141;
 }
 
 .gupter-mediumShadow {
